@@ -58,4 +58,4 @@ plt.show()
 
 
 # Menyimpan model
-model.save('model_pupuk_saved')
+model.save('model_pupuk.keras') 

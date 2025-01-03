@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 
 # Load model
-model = load_model('model_pupuk_saved')
+model = load_model('model_pupuk.keras')
 
 # Load data untuk scaler
 data = pd.read_csv('DataPupuk.csv', sep=';', encoding='latin-1')
